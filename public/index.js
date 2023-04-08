@@ -1,6 +1,6 @@
 import { io } from "https://cdn.socket.io/4.4.1/socket.io.esm.min.js"
 
-const SOCKET_URL = 'http://localhost:8000';
+const SOCKET_URL = 'https://tasty-fill-bot.onrender.com';
 const socket = io(SOCKET_URL);
 
 let restaurantOptions;

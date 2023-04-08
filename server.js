@@ -41,7 +41,7 @@ if (process.env.NODE_ENV === 'production') {
 	app.set('trust proxy', 1);
 	sess.cookie.secure = true;
 	sess.cookie.httpOnly = true;
-	sess.cookie.domain = "" // REPLACE: live domain
+	sess.cookie.domain = "https://tasty-fill-bot.onrender.com"
 }
 
 // Middlewares
